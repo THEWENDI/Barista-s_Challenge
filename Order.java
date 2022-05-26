@@ -73,12 +73,12 @@ public class Order{
         }
         return total;
     }
-    // create a method called display 
-    // that prints out the order information like so:
-    // Customer Name: Cindhuri
-    // drip coffee - $1.50
-    // capuccino - $3.50
-    // Total: $5.00
+    create a method called display 
+    that prints out the order information like so:
+    Customer Name: Cindhuri
+    drip coffee - $1.50
+    capuccino - $3.50
+    Total: $5.00
     public void display(){
         System.out.println("Customer Name: " + this.name);
         for(Item i: this.items){
